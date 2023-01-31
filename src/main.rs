@@ -5,7 +5,7 @@ use clap::{arg, Command};
 use serde_json::json;
 
 fn main() {
-    let matches = Command::new("phreadmeans")
+    let matches = Command::new("phredmeans")
         .version("0.1.0")
         .author("Stephen D. Shank, Ph. D. <sshank@temple.edu>")
         .about("High performance average phred score calculator")
